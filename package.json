@@ -1,0 +1,18 @@
+{
+  "name": "reatom-replace-ctx-schedule-plugin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./lib/reatom-replace-ctx-schedule.test.js",
+    "lint": "eslint ./test",
+    "lint:fix": "eslint ./test --fix"
+  },
+  "keywords": [],
+  "author": "Egor Serikov",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.11.1",
+    "reatom-replace-ctx-schedule-plugin": "file:./lib/index.js"
+  }
+}
